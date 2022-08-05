@@ -1,0 +1,45 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11pt;
+    color: rgb(40, 40, 40);
+}
+
+.center-div
+{
+  margin: 0 auto;
+  max-width: 700px;
+  height: auto;
+  text-align: center;
+}
+
+div.header
+{
+    text-align: center;
+    background-color: rgb(0, 67, 112);
+    max-width: 100%;
+    padding: 25px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Bold', 'Arial Narrow Bold', 'Arial Bold', sans-serif;
+    color:white;
+}
+
+.logo {
+    height: 500;
+    width: auto;
+}
+
+img {
+    height:50px;
+    width: auto;
+}
+
+ul.menu  > li {
+    display: inline-block;
+    margin:25px;
+    /* You can also add some margins here to make it look prettier */
+    font-size: 14pt;
+    font-weight: 600;
+}
